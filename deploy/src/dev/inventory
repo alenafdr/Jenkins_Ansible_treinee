@@ -5,6 +5,3 @@ ansible_ssh_pass=vagrant
 
 [servers]
 virtual_machine ansible_ssh_port=2222 ansible_ssh_host=127.0.0.1
-
-[defaults]
-host_key_checking = false
