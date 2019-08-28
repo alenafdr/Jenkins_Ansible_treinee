@@ -1,0 +1,7 @@
+- name: Ensures ~/ansible_project/lib dir exists
+  file: path=~/ansible_project/lib state=directory
+
+- name: Copy jar to the server
+  copy:
+    src: ../../target/ansible-0.0.1-SNAPSHOT.jar
+    dest: ~/ansible_project/lib/ansible-0.0.1-SNAPSHOT.jar
