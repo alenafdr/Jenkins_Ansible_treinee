@@ -1,1 +1,1 @@
-ansible-playbook master.yml
+ansible-playbook master.yml -v -i dev
