@@ -1,0 +1,2 @@
+- name: Execute the command in remote shell; stdout goes to the specified file on the remote.
+  shell: java -jar ansible_project/lib/ansible-0.0.1-SNAPSHOT.jar
